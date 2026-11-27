@@ -45,7 +45,7 @@ repositories {
 
 dependencies {
     // minestom
-    val minestom = "net.minestom:minestom:2026.07.22-26.2"
+    val minestom = "net.minestom:minestom:2026.10.07-26.2"
     compileOnly(minestom)
     testImplementation(minestom)
 
