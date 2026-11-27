@@ -127,7 +127,7 @@ final class VoiceChatImpl implements VoiceChat {
     }
 
     private void handle(@NotNull Player player, @NotNull HandshakePacket packet) {
-        if (packet.version() != 20) {
+        if (packet.version() != VoiceChat.COMPATIBILITY_VERSION) {
             LOGGER.warn("player {} using wrong version: {}", player.getUsername(), packet.version());
             return;
         }
