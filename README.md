@@ -21,7 +21,7 @@ with the 26.2 support and AES/GCM `Secret` rework of [mudkjp's fork](https://git
 
 ### Installation
 The library is available through [JitPack](https://jitpack.io/#Ja90n/simple-voice-chat-minestom).
-Use `main-SNAPSHOT` for the latest version, a release tag, or a commit hash as the version.
+Use a release tag as the version (the latest is `v1.0.0`), or `main-SNAPSHOT` / a commit hash for the latest development version.
 Minestom (`2026.10.07-26.2`) and `slf4j-api` are not bundled, you have to provide them yourself.
 
 <details>
@@ -35,7 +35,7 @@ repositories {
 
 dependencies {
     implementation("net.minestom:minestom:2026.10.07-26.2")
-    implementation("com.github.Ja90n:simple-voice-chat-minestom:main-SNAPSHOT")
+    implementation("com.github.Ja90n:simple-voice-chat-minestom:v1.0.0")
 }
 ```
 </details>
@@ -51,7 +51,7 @@ repositories {
 
 dependencies {
     implementation 'net.minestom:minestom:2026.10.07-26.2'
-    implementation 'com.github.Ja90n:simple-voice-chat-minestom:main-SNAPSHOT'
+    implementation 'com.github.Ja90n:simple-voice-chat-minestom:v1.0.0'
 }
 ```
 </details>
@@ -76,7 +76,7 @@ dependencies {
   <dependency>
     <groupId>com.github.Ja90n</groupId>
     <artifactId>simple-voice-chat-minestom</artifactId>
-    <version>main-SNAPSHOT</version>
+    <version>v1.0.0</version>
   </dependency>
 </dependencies>
 ```
